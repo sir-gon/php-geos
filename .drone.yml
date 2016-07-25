@@ -13,3 +13,6 @@ matrix:
   PHP_BIN:
     - /opt/php-7.0.7/bin/
     - /usr/bin/ # this is php5
+  CFLAGS:
+    - -Wall -O0 -m32
+    - -Wall -O0 -m64
